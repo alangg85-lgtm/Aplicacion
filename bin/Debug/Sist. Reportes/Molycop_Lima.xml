@@ -1,0 +1,458 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Molycop_Lima
+</name>
+</assembly>
+<members>
+<member name="T:Molycop_Lima.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.a_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.carita_feliz">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.CORRIENTE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.Desert">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.Fondo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.Fondo_Final">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.Fondo_Final_Moly">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.Fondo_Final_Moly1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.Molycop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.planta_lima1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_dos">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.r_uno">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Molycop_Lima.My.Resources.Resources.v_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Molycop_Lima.Hoja3">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.#ctor(Microsoft.Office.Tools.Excel.Factory,System.IServiceProvider)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.Initialize">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.FinishInitialization">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.InitializeDataBindings">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.InitializeCachedData">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.InitializeData">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.BindToData">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.StartCaching(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.StopCaching(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.IsCached(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.BeginInitialization">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.EndInitialization">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.InitializeControls">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.InitializeComponents">
+
+</member>
+<member name="M:Molycop_Lima.Hoja3.NeedsFill(System.String)">
+
+</member>
+<member name="T:Molycop_Lima.Globals">
+
+</member>
+<member name="M:Molycop_Lima.Globals.#ctor">
+
+</member>
+<member name="T:Molycop_Lima.ThisRibbonCollection">
+
+</member>
+<member name="M:Molycop_Lima.ThisRibbonCollection.#ctor(Microsoft.Office.Tools.Ribbon.RibbonFactory)">
+
+</member>
+<member name="T:Molycop_Lima.Hoja1">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.#ctor(Microsoft.Office.Tools.Excel.Factory,System.IServiceProvider)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.Initialize">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.FinishInitialization">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.InitializeDataBindings">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.InitializeCachedData">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.InitializeData">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.BindToData">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.StartCaching(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.StopCaching(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.IsCached(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.BeginInitialization">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.EndInitialization">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.InitializeControls">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.InitializeComponents">
+
+</member>
+<member name="M:Molycop_Lima.Hoja1.NeedsFill(System.String)">
+
+</member>
+<member name="T:Molycop_Lima.Hoja2">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.#ctor(Microsoft.Office.Tools.Excel.Factory,System.IServiceProvider)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.Initialize">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.FinishInitialization">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.InitializeDataBindings">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.InitializeCachedData">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.InitializeData">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.BindToData">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.StartCaching(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.StopCaching(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.IsCached(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.BeginInitialization">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.EndInitialization">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.InitializeControls">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.InitializeComponents">
+
+</member>
+<member name="M:Molycop_Lima.Hoja2.NeedsFill(System.String)">
+
+</member>
+<member name="T:Molycop_Lima.ThisWorkbook">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.#ctor(Microsoft.Office.Tools.Excel.Factory,System.IServiceProvider)">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.Initialize">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.FinishInitialization">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.InitializeDataBindings">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.InitializeCachedData">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.InitializeData">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.BindToData">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.StartCaching(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.StopCaching(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.IsCached(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.BeginInitialization">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.EndInitialization">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.InitializeControls">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.InitializeComponents">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.NeedsFill(System.String)">
+
+</member>
+<member name="M:Molycop_Lima.ThisWorkbook.OnShutdown">
+
+</member>
+</members>
+</doc>
