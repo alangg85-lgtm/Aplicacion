@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Molycop_Lima.Hoja1" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAQAAAQEQAAAQAAghgAAAAAABAQAAgAIAAAACg=</HashCode>
+      <FileName>Hoja1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Globals" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgBAAAACAAAAAAAIBAAAAAAgAAAAAAAAAAiAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Hoja2" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAQAAAEEQAAAQAAgBgAAAAAABAQAAgAIAAIACg=</HashCode>
+      <FileName>Hoja2.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Hoja3" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAQAAAAEQAAAQAAoFgAAAAAABAQAAgAIAAAACg=</HashCode>
+      <FileName>Hoja3.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.ThisWorkbook" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAAAQAAAAEQAgAwAAgBkAAEAAABAQAAgAIAAAACg=</HashCode>
+      <FileName>ThisWorkbook.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.ThisRibbonCollection" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MySettings" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Login" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQoAAICAECAAAAAkAACACAAChIAANEAAAEAAABAAoQA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\Login.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntAreas" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAQBECAARCQAAACAAABCAAIAAAACABAIAQQAAAA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\MntAreas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntCargo" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAQAECAARCCAAICAAABCAAAAAAACABAIAQQEAAA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\MntCargo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntGrupo" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEGEQAECACRGAEEADAAATCkAAAAAACABAIAAQBMAA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\MntGrupo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntPersona" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAYsUCgIRAAIgACCABFfAIAAIAADCBBAAOAAAAM=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\MntPersona.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntPersonal" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAAYAFaAARAAAAACAABBOQIAAIAACCBBAgAQAAAA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\MntPersonal.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntProveedor" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAYAEDQARCAEAACAAABCAIIwACAGABAIAAAACiA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\MntProveedor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntTurno" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAQAESAARCAACACAAABCAAAAAAACABgIAAQAAAQ=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\MntTurno.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntUsu_tur_mov" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAUAkCCERQAAAACAABxCAAAACAACUBgogAAABAA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\MntUsu_tur_mov.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntUsuario" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEUAYAUCQFRAAEAYiAABhCIBEwAABCIBAIAAAwJiA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\MntUsuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PAreas" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAFCAAhECAgAgQEECCgExACABBAAAAJCAAAAJiAAGE=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\PAreas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PCargo" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAECAAhECAAAgCEEKCgExACAJAAAAANCAAABZgAAGA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\PCargo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Persona" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAA4qISAAAASACACgARACALAAAACBAAAAAIoACxo=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\Persona.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PGrupo" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CxAECAAgECAAAkAEECCgExACABABgAQJCAAAAJgAIGA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\PGrupo.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PProveedor" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SQAECAIgEDQAAgAEECCgExACAJAAACANCAAAAJgECuA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\PProveedor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PTurno" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CRAECAAgECAAAggEGGCgExACABAAAQAJCAgAAJgAAGQ=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\PTurno.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.SeleServidor" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAoAAICAECAAAAAAAACICAgCgAAAYEABAEAAAAAEAQA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\SeleServidor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Usu_tur_mov" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SQAEAAEgASAEAkAEEACgAxwDAAAAAAABAAigAggABGQ=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\Usu_tur_mov.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Usuario" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAEQAAgwSAFAgAEEACgAxgDCAAAAAABCACAAggAIGA=</HashCode>
+      <FileName>Principal\Formularios\Administración\FAdmin\Usuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.BCol_ada" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEAAAgAiAAAAAEECCAAgECgAAAAAAAAAAAAMggAEA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\BCol_ada.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.BMPCol_ada" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEAAAgAiAAAAAEECCAAgECgAAAIAAAAAAAAIggAEA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\BMP_Colada.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.DBT" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xjgFZDSAuCIAREQZghDKFDh3wPL/cwCWI1VgpQGMBQA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\DBT.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.DBT_Fal" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAEAAAgACAABAEEEAmAAgACAAAQAAAAAAAAAQgBAEA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\DBT_Fal.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.DBT_Intermedio" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iYEAABAgBiAAAgIAEAykAwBD0AAAAAhFgDIgIgoIB2A=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\DBT_Intermedio.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.DBT_Op" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAECAIgACAAAAAOEQGAAgACAAAAAAAAAAAAAIgAAEA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\DBT_Op.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.dialog_Durometro" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEABBECAAEAIAAACAAAACAgEAICggAEAAAQAAIAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\dialog_Durometro.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.dlgAcercaDe" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAECABAAAAAACAAAACgAAAAAAABEAAAAAAAAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\dlgAcercaDe.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.dlgInformacion" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAECABAAAAAACAAAACAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\dlgInformacion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Durometro" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>R2mygBGrPKHq6MVGlqqSFClKWhhvYoO6i8YcA8OnRNo=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\Durometro.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Durometro_Rango" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CSAAABAgACAAAgAEEACiQwhDAAAAAAEJCAAAAxwIAHA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\Durometro_Rango.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.DurometroConsulta" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEQCAAAUiBrDAAiAAiAAABCgClgAUACIEAAABAAEAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\DurometroConsulta.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.DurometroFactor" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SYAC4AAwGiIgEAAAECCgQwhDhFAAYABJCAAAAhgAEGg=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\DurometroFactor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.DurometroIntermedio" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAADBAgAGQAAgIAEACwCwFCACAAQAgHgAIgAgoEJ2Q=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\DurometroIntermedio.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Form1" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAAAAAAACAAAgCAAAQQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\Form1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Mnt_Di_Ms" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABIAYAECAARAAAAASATQBKIHD/AHADgBYJAAAEKAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\Mnt_Di_Ms.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntBarra" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQkSASAEDQATCBAAACAABhCABAAQAACABAIAAAAAAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntBarra.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntBolas" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAECAQAFDBARCAAAACAARhCAIAAYAECABAIAAAAAAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntBolas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntCol_ada" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAYAEiABRCAAAASAgABCgAAAAAACABAIAAQgAAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntCol_ada.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntColada" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwUEGG6EkiQSZHAsmWC0AKBGAEWgDgBCQBAIgG3QKSg=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntColada.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntDurom_Rango" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQQECEARAAAAQCAAABSABAAAAACABEIAAAAAAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntDurom_Rango.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntFalla" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQAECAARCABAACAAABCAAAAAAACABAIgAQAQAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntFalla.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntGrado" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAYAEiABRCAAAASAAAFCABAAAAACABAIAAQgAQA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntGrado.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntLinea" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAECAQAECAAZCAAAADAAABCAAAAAAACABAIAAQAAAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntLinea.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntOpcion" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQAECAARCARAACAAABCAAACAkACABAIAAQAAAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntOpcion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntPrima" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQUCGKEGiRAROAOEASGIINSgoAhAEgKAFCZADYCAQg=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntPrima.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntProductObserv" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AWqECQTgGCDAQgQAOASAAFhKAQATAIAbAFEEBAECAAA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntProductObserv.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.MntUltrasonico" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAJAwQDGCIARGQRAoSAABhCAQijYAIaAFEAAAUAAIg=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\MntUltrasonico.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PBarra" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQQECAAgECAADiAMEGCgExACAJQAAQAJCAAAAJgAAGA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\PBarra.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PBolas" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAMSAAgEDAAIgAEECCgExADABAAAAAJCAQAApgBAGA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\PBolas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PCol_ada" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SQIEAAIgEiAAAgAEECSgAwACgBAAAAAJCAAAAZggAGA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\PCol_ada.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PColadas" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQUFQBKkAiSAAiQlkWCgAzQDABYQBAyFAAQAAkjSD2A=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\PColadas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PFalla" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SQBEAAAgECEABgAEECmgAwADBAAAAAAJCAQAAhgBAGA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\PFalla.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PGrado" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SQAEAAIgEzAAAgAEECSgAwACABAAEAAJCAAAAJgAAWA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\PGrado.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PLinea" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CYAECAAgECQAIgAEECDgExACABAAAAAJiAAAALgAAGI=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\PLinea.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PMPRIMA" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SSAEQBIgCiRMAuAsEASiAxESgpAABAwNAECAAioCB2A=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\PMPRIMA.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.POpcion" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAEAAAgECAAAgAMEAGgAwEDAAAAAQAJCAAAAxgAAGA=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\POpcion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PProductoObservado" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>C4AEChAgASAAAoAQGAKgAwRKAAAABAgFCAiAAgoABWM=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\PProductoObservado.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PUltrasonico" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iRAGIBAmESQEAkEAEASggzBDgCAAIAgFAAEAAgqAB+A=</HashCode>
+      <FileName>Principal\Formularios\Calidad\FCalidad\PUltrasonico.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.mant_parada_RF1" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAIECgFAgCAAAQAQASAACAAAAAAAA=</HashCode>
+      <FileName>Principal\Formularios\Produccion\FProduccion\mant_parada_RF1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Mnt_SAP" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UCABAAEgEGCAIKAkHEKAAAFCAEARAggDIRBAAQSAJAQ=</HashCode>
+      <FileName>Principal\Formularios\Produccion\FProduccion\Mnt_SAP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Paradas" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEKAgIAAAAACAAAgCEAAAQAAKAQAAAIAAAAA=</HashCode>
+      <FileName>Principal\Formularios\Produccion\FProduccion\Paradas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Menu" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACDZSHQxIKMgiCQJABTZzjuWESHIGldiINAABZQAqAo=</HashCode>
+      <FileName>Principal\Menu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.CQuimica" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAECCWBAAAAADAACgKAAEAcQALAECIAgAAAAA=</HashCode>
+      <FileName>Principal\Reportes\Calidad\Panel\CQuimica.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.PanelUltrasonico" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAABAAAAACAAjgCAIAAcQACAECAAAAAAAA=</HashCode>
+      <FileName>Principal\Reportes\Calidad\Panel\PanelUltrasonico.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.RF1" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAABAAAAACAEgACAAAAIQACBUAAAgAAAAA=</HashCode>
+      <FileName>Principal\Reportes\Produccion\RF1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molycop_Lima.Utility" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAQAECAAAAAAAAAFAAAAAAABABAAAgAAAQAAAA=</HashCode>
+      <FileName>Principal\Utility.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="Molycop_Lima.Mdl_Conectar" Collapsed="true">
+    <Position X="4" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIEQUQKAAAAICAgBABIAAAAQAAQCAAAAAAAAIAEg=</HashCode>
+      <FileName>Modulos\Mdl_Conectar.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Molycop_Lima.Mdl_Name_Form" Collapsed="true">
+    <Position X="5.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiCACMCIAiFYAIgCYAMQAgAggAAgCAEANjRongoBCA=</HashCode>
+      <FileName>Modulos\Mdl_Name_Form.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Molycop_Lima.Mdl_Variables" Collapsed="true">
+    <Position X="7.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Modulos\Mdl_Variables.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Molycop_Lima.Servidor_login" Collapsed="true">
+    <Position X="14.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAQAAAAQAAAAAAACIAAIAABAAAAAAAAAAYAAAAAA=</HashCode>
+      <FileName>Modulos\Servidor_login.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Molycop_Lima.DesignTimeConstants" Collapsed="true">
+    <Position X="2.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>My Project\AssemblyInfo.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Molycop_Lima.Composicion_Quimica_Barras" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Principal\Reportes\Calidad\Modulos\Composicion_Quimica_Barras.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Molycop_Lima.ProductObservado" Collapsed="true">
+    <Position X="11" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Principal\Reportes\Calidad\Modulos\ProductObservado.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Molycop_Lima.Ultrasonido" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Principal\Reportes\Calidad\Modulos\Ultrasonido.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Molycop_Lima.My.Resources.Resources" Collapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="Molycop_Lima.My.MySettingsProperty" Collapsed="true">
+    <Position X="9.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

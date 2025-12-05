@@ -1,0 +1,1910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Molycop_Lima</RootNamespace>
+    <AssemblyName>Molycop_Lima</AssemblyName>
+    <VSTO_HostDocumentName>Molycop_Lima.xlsx</VSTO_HostDocumentName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <DefineConstants>VSTO40</DefineConstants>
+    <OfficeApplication>Excel</OfficeApplication>
+    <ProjectGuid>{D04E517F-8173-49F2-B1CC-A015E38227E4}</ProjectGuid>
+    <SolutionID>3234c27b-bd5e-4165-b03b-e242a5de93da</SolutionID>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>publish\</PublishUrl>
+    <InstallUrl />
+    <TargetCulture>es</TargetCulture>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+    <ProductName>Molycop_Lima</ProductName>
+    <PublisherName />
+    <SupportUrl />
+    <FriendlyName>Molycop_Lima</FriendlyName>
+    <OfficeApplicationDescription />
+    <BootstrapperComponentsLocation>HomeSite</BootstrapperComponentsLocation>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <VSTO_TrustAssembliesLocation>true</VSTO_TrustAssembliesLocation>
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <PropertyGroup>
+    <VSTO_EmbedTypeLibraryInAssembly>false</VSTO_EmbedTypeLibraryInAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\Sist. Reportes\</OutputPath>
+    <DocumentationFile>Molycop_Lima.xml</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Molycop_Lima.xml</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Molycop_Lima_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D009C48E1A96BED9EC645C19A57464B8F46F5565</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Vbe.Interop, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Excel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Tools.Excel.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Text" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Microsoft.Office.Tools.Excel" />
+    <Import Include="Microsoft.VisualStudio.Tools.Applications.Runtime" />
+    <Import Include="Office = Microsoft.Office.Core" />
+    <Import Include="Excel = Microsoft.Office.Interop.Excel" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Hoja31.Designer.vb">
+      <DependentUpon>Hoja31.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Hoja31.vb">
+      <DependentUpon>Molycop_Lima.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Mdl_Conectar.vb" />
+    <Compile Include="Modulos\Mdl_Name_Form.vb" />
+    <Compile Include="Modulos\Servidor_login.vb" />
+    <Compile Include="Principal\Formularios\Administración\FAdmin\Mntmovturnos.Designer.vb">
+      <DependentUpon>Mntmovturnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\Mntmovturnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntProveedor.Designer.vb">
+      <DependentUpon>MntProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntUsuario.designer.vb">
+      <DependentUpon>MntUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntUsu_tur_mov.Designer.vb">
+      <DependentUpon>MntUsu_tur_mov.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntUsu_tur_mov.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\PProveedor.designer.vb">
+      <DependentUpon>PProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\PProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\p_movturno.Designer.vb">
+      <DependentUpon>p_movturno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\p_movturno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\SeleServidor.designer.vb">
+      <DependentUpon>SeleServidor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\SeleServidor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\Usu_tur_mov.Designer.vb">
+      <DependentUpon>Usu_tur_mov.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\Usu_tur_mov.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\BCol_ada.designer.vb">
+      <DependentUpon>BCol_ada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\BCol_ada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\BMP_Colada.designer.vb">
+      <DependentUpon>BMP_Colada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\BMP_Colada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DBT.Designer.vb">
+      <DependentUpon>DBT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DBT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DBT_Fal.Designer.vb">
+      <DependentUpon>DBT_Fal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DBT_Fal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DBT_Intermedio.Designer.vb">
+      <DependentUpon>DBT_Intermedio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DBT_Intermedio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DBT_Op.Designer.vb">
+      <DependentUpon>DBT_Op.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DBT_Op.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\Durometro.designer.vb">
+      <DependentUpon>Durometro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\Durometro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DurometroConsulta.Designer.vb">
+      <DependentUpon>DurometroConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DurometroConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DurometroFactor.Designer.vb">
+      <DependentUpon>DurometroFactor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DurometroFactor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DurometroIntermedio.Designer.vb">
+      <DependentUpon>DurometroIntermedio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\DurometroIntermedio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\Durometro_Rango.Designer.vb">
+      <DependentUpon>Durometro_Rango.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\Durometro_Rango.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntCertCalidad_CQ.Designer.vb">
+      <DependentUpon>MntCertCalidad_CQ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntCertCalidad_CQ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntCertificados_Calidad.Designer.vb">
+      <DependentUpon>MntCertificados_Calidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntCertificados_Calidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntPTtermico.Designer.vb">
+      <DependentUpon>MntPTtermico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntPTtermico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntDurome_MaxMin.Designer.vb">
+      <DependentUpon>MntDurome_MaxMin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntDurome_MaxMin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntDurom_Rango.Designer.vb">
+      <DependentUpon>MntDurom_Rango.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntDurom_Rango.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntFalla.Designer.vb">
+      <DependentUpon>MntFalla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntFalla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntGrado.Designer.vb">
+      <DependentUpon>MntGrado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntGrado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntMatPrima_maxmin.Designer.vb">
+      <DependentUpon>MntMatPrima_maxmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntMatPrima_maxmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\Mntmaxmin.Designer.vb">
+      <DependentUpon>Mntmaxmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\Mntmaxmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntObservBarra.Designer.vb">
+      <DependentUpon>MntObservBarra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntObservBarra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntObservProducto.Designer.vb">
+      <DependentUpon>MntObservProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntObservProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntOpcion.Designer.vb">
+      <DependentUpon>MntOpcion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntOpcion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntParametros.Designer.vb">
+      <DependentUpon>MntParametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntParametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntProcesoLinea.Designer.vb">
+      <DependentUpon>MntProcesoLinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntProcesoLinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntProcesoParametros.Designer.vb">
+      <DependentUpon>MntProcesoParametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntProcesoParametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntProcesoTTermico.Designer.vb">
+      <DependentUpon>MntProcesoTTermico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntProcesoTTermico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntProductObserv.Designer.vb">
+      <DependentUpon>MntProductObserv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntProductObserv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntUltrasonico.Designer.vb">
+      <DependentUpon>MntUltrasonico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntUltrasonico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntBarrasObserv.Designer.vb">
+      <DependentUpon>MntBarrasObserv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntBarrasObserv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MPParametros.Designer.vb">
+      <DependentUpon>MPParametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MPParametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PBarrasObserv.Designer.vb">
+      <DependentUpon>PBarrasObserv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PBarrasObserv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PCertificados_Calidad.Designer.vb">
+      <DependentUpon>PCertificados_Calidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PCertificados_Calidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PCertificado_Comp.Designer.vb">
+      <DependentUpon>PCertificado_Comp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PCertificado_Comp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PDurome_MaxMin.Designer.vb">
+      <DependentUpon>PDurome_MaxMin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PDurome_MaxMin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PFalla.Designer.vb">
+      <DependentUpon>PFalla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PFalla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PMatPrima_maxmin.Designer.vb">
+      <DependentUpon>PMatPrima_maxmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PMatPrima_maxmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PObservBarras.Designer.vb">
+      <DependentUpon>PObservBarras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PObservBarras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PObservProducto.Designer.vb">
+      <DependentUpon>PObservProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PObservProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\POpcion.Designer.vb">
+      <DependentUpon>POpcion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\POpcion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntTtermico.Designer.vb">
+      <DependentUpon>MntTtermico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntTtermico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PPParametros.Designer.vb">
+      <DependentUpon>PPParametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PPParametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PParametros.Designer.vb">
+      <DependentUpon>PParametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PParametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PProcesoLinea.Designer.vb">
+      <DependentUpon>PProcesoLinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PProcesoLinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PProcesoParametros.Designer.vb">
+      <DependentUpon>PProcesoParametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PProcesoParametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PProcesoTTermico.Designer.vb">
+      <DependentUpon>PProcesoTTermico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PProcesoTTermico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PTtermico.Designer.vb">
+      <DependentUpon>PTtermico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PTtermico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\P_PTTermico.Designer.vb">
+      <DependentUpon>P_PTTermico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\P_PTTermico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\fecha.Designer.vb">
+      <DependentUpon>fecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\fecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Hora.Designer.vb">
+      <DependentUpon>Hora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Hora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Imagenes\Diametros.Designer.vb">
+      <DependentUpon>Diametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Imagenes\Diametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Item.Designer.vb">
+      <DependentUpon>Item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Item.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\MntContratista.Designer.vb">
+      <DependentUpon>MntContratista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\MntContratista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_msg_mnt.Designer.vb">
+      <DependentUpon>Mnt_msg_mnt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_msg_mnt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_msg_produc.Designer.vb">
+      <DependentUpon>Mnt_msg_produc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_msg_produc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_msg_seguridad.Designer.vb">
+      <DependentUpon>Mnt_msg_seguridad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_msg_seguridad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_reporteTurno.Designer.vb">
+      <DependentUpon>Mnt_reporteTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_reporteTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_RolSuperviores.Designer.vb">
+      <DependentUpon>Mnt_RolSuperviores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_RolSuperviores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_trab_terceros.Designer.vb">
+      <DependentUpon>Mnt_trab_terceros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Mnt_trab_terceros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\MoverControles.Designer.vb">
+      <DependentUpon>MoverControles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\MoverControles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Nivel_Riesgo.Designer.vb">
+      <DependentUpon>Nivel_Riesgo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\Nivel_Riesgo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\pActividad.Designer.vb">
+      <DependentUpon>pActividad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\pActividad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\PContrastita.Designer.vb">
+      <DependentUpon>PContrastita.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\PContrastita.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\pMsgMnt.Designer.vb">
+      <DependentUpon>pMsgMnt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\pMsgMnt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\pMsgProduc.Designer.vb">
+      <DependentUpon>pMsgProduc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\pMsgProduc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\pMsgSeguridad.Designer.vb">
+      <DependentUpon>pMsgSeguridad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\pMsgSeguridad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\pRol_Usuario.Designer.vb">
+      <DependentUpon>pRol_Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\pRol_Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\ptrab_terceros.Designer.vb">
+      <DependentUpon>ptrab_terceros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\ptrab_terceros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\p_reporteTurnos.Designer.vb">
+      <DependentUpon>p_reporteTurnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\p_reporteTurnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\p_SelecPersonal.Designer.vb">
+      <DependentUpon>p_SelecPersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Informacion\p_SelecPersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\Mnt_ConsumoEnergia.Designer.vb">
+      <DependentUpon>Mnt_ConsumoEnergia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\Mnt_ConsumoEnergia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\Mnt_MedidoresEnergia.Designer.vb">
+      <DependentUpon>Mnt_MedidoresEnergia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\Mnt_MedidoresEnergia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\Mnt_ReadSAP.Designer.vb">
+      <DependentUpon>Mnt_ReadSAP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\Mnt_ReadSAP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\P_ConsumoEnergia.Designer.vb">
+      <DependentUpon>P_ConsumoEnergia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\P_ConsumoEnergia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\P_MedidoresEnergia.Designer.vb">
+      <DependentUpon>P_MedidoresEnergia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\P_MedidoresEnergia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\p_readSAP.Designer.vb">
+      <DependentUpon>p_readSAP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\p_readSAP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\MntEquipo.Designer.vb">
+      <DependentUpon>MntEquipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\MntEquipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\MntFallasxlinea.Designer.vb">
+      <DependentUpon>MntFallasxlinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\MntFallasxlinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntDiaxMes.Designer.vb">
+      <DependentUpon>MntDiaxMes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntDiaxMes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntHorasTurno.Designer.vb">
+      <DependentUpon>MntHorasTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntHorasTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntMotivo.Designer.vb">
+      <DependentUpon>MntMotivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntMotivo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntProduccion1.Designer.vb">
+      <DependentUpon>MntProduccion1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntProduccion1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntProduccion_objetivo.Designer.vb">
+      <DependentUpon>MntProduccion_objetivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntProduccion_objetivo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntUbicacion.Designer.vb">
+      <DependentUpon>MntUbicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntUbicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\Mnt_SAP_Sistema.Designer.vb">
+      <DependentUpon>Mnt_SAP_Sistema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\Mnt_SAP_Sistema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pAreaporlinea.Designer.vb">
+      <DependentUpon>pAreaporlinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pAreaporlinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntTipo.Designer.vb">
+      <DependentUpon>MntTipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntTipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntLinea_area.Designer.vb">
+      <DependentUpon>MntLinea_area.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\MntLinea_area.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\Mnt_SAP.Designer.vb">
+      <DependentUpon>Mnt_SAP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\Mnt_SAP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\pequipo.Designer.vb">
+      <DependentUpon>pequipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\pequipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\pFallasxlinea.Designer.vb">
+      <DependentUpon>pFallasxlinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Mantenimiento\FMantenimiento\pFallasxlinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pHorasTurno.Designer.vb">
+      <DependentUpon>pHorasTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pHorasTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pLinprod.Designer.vb">
+      <DependentUpon>pLinprod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pLinprod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pmotivo.Designer.vb">
+      <DependentUpon>pmotivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pmotivo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pProduccion1.Designer.vb">
+      <DependentUpon>pProduccion1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pProduccion1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pproduccion_objetivo.Designer.vb">
+      <DependentUpon>pproduccion_objetivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pproduccion_objetivo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pSAP.Designer.vb">
+      <DependentUpon>pSAP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pSAP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pTipo.Designer.vb">
+      <DependentUpon>pTipo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pTipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pUbicacion.Designer.vb">
+      <DependentUpon>pUbicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pUbicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Reportes\Calidad\Modulos\Durometro.vb" />
+    <Compile Include="Principal\Reportes\Calidad\Modulos\ProductObservado.vb" />
+    <Compile Include="Principal\Reportes\Calidad\Modulos\Ultrasonido.vb" />
+    <Compile Include="Principal\Reportes\Calidad\Panel\PanelUltrasonico.Designer.vb">
+      <DependentUpon>PanelUltrasonico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Reportes\Calidad\Panel\PanelUltrasonico.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PGrado.designer.vb">
+      <DependentUpon>PGrado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PGrado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntCol_ada.Designer.vb">
+      <DependentUpon>MntCol_ada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntCol_ada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PCol_ada.designer.vb">
+      <DependentUpon>PCol_ada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PCol_ada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntPrima.Designer.vb">
+      <DependentUpon>MntPrima.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntPrima.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PMPRIMA.Designer.vb">
+      <DependentUpon>PMPRIMA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PMPRIMA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\Mnt_Di_Ms.Designer.vb">
+      <DependentUpon>Mnt_Di_Ms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\Mnt_Di_Ms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntColada.Designer.vb">
+      <DependentUpon>MntColada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntColada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntBolas.Designer.vb">
+      <DependentUpon>MntBolas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntBolas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PBolas.designer.vb">
+      <DependentUpon>PBolas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PBolas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\dialog_Durometro.designer.vb">
+      <DependentUpon>dialog_Durometro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\dialog_Durometro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\dlgAcercaDe.designer.vb">
+      <DependentUpon>dlgAcercaDe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\dlgAcercaDe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\dlgInformacion.designer.vb">
+      <DependentUpon>dlgInformacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\dlgInformacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntCargo.Designer.vb">
+      <DependentUpon>MntCargo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntCargo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Mdl_Variables.vb" />
+    <Compile Include="Principal\Formularios\Administración\FAdmin\PCargo.designer.vb">
+      <DependentUpon>PCargo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\PCargo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntGrupo.Designer.vb">
+      <DependentUpon>MntGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\PGrupo.designer.vb">
+      <DependentUpon>PGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\PGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntTurno.Designer.vb">
+      <DependentUpon>MntTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\PTurno.designer.vb">
+      <DependentUpon>PTurno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\PTurno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntLinea.Designer.vb">
+      <DependentUpon>MntLinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntLinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PColadas.Designer.vb">
+      <DependentUpon>PColadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PColadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PLinea.designer.vb">
+      <DependentUpon>PLinea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PLinea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntBarra.Designer.vb">
+      <DependentUpon>MntBarra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\MntBarra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PBarra.designer.vb">
+      <DependentUpon>PBarra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PBarra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\PAreas.designer.vb">
+      <DependentUpon>PAreas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\PAreas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntPersonal.Designer.vb">
+      <DependentUpon>MntPersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntPersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntPersona.Designer.vb">
+      <DependentUpon>MntPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\Persona.Designer.vb">
+      <DependentUpon>Persona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\Persona.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\Usuario.Designer.vb">
+      <DependentUpon>Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\Login.designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntAreas.Designer.vb">
+      <DependentUpon>MntAreas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Administración\FAdmin\MntAreas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PProductoObservado.Designer.vb">
+      <DependentUpon>PProductoObservado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PProductoObservado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PUltrasonico.Designer.vb">
+      <DependentUpon>PUltrasonico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Calidad\FCalidad\PUltrasonico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Menu.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Hoja1.Designer.vb">
+      <DependentUpon>Hoja1.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Hoja1.vb">
+      <DependentUpon>Molycop_Lima.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="Hoja2.Designer.vb">
+      <DependentUpon>Hoja2.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="Hoja2.vb">
+      <DependentUpon>Molycop_Lima.xlsx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="Principal\Reportes\Calidad\Panel\CQuimica.Designer.vb">
+      <DependentUpon>CQuimica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Reportes\Calidad\Panel\CQuimica.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Principal\Reportes\Calidad\Modulos\Composicion_Quimica_Barras.vb" />
+    <Compile Include="Principal\Reportes\Calidad\Reportes\Q_Quimica.vb" />
+    <Compile Include="Principal\Reportes\Produccion\RF1.Designer.vb">
+      <DependentUpon>RF1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Reportes\Produccion\RF1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\Mnt_Parada.Designer.vb">
+      <DependentUpon>Mnt_Parada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\Mnt_Parada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pParadas.Designer.vb">
+      <DependentUpon>pParadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\Formularios\Produccion\FProduccion\pParadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\Utility.vb" />
+    <Compile Include="ThisWorkbook.Designer.vb">
+      <DependentUpon>ThisWorkbook.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="ThisWorkbook.vb">
+      <DependentUpon>Molycop_Lima.xlsx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\Mntmovturnos.resx">
+      <DependentUpon>Mntmovturnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\MntProveedor.resx">
+      <DependentUpon>MntProveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\MntUsuario.resx">
+      <DependentUpon>MntUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\MntUsu_tur_mov.resx">
+      <DependentUpon>MntUsu_tur_mov.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\PProveedor.resx">
+      <DependentUpon>PProveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\p_movturno.resx">
+      <DependentUpon>p_movturno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\SeleServidor.resx">
+      <DependentUpon>SeleServidor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\Usu_tur_mov.resx">
+      <DependentUpon>Usu_tur_mov.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\BCol_ada.resx">
+      <DependentUpon>BCol_ada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\BMP_Colada.resx">
+      <DependentUpon>BMP_Colada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\DBT.resx">
+      <DependentUpon>DBT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\DBT_Fal.resx">
+      <DependentUpon>DBT_Fal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\DBT_Intermedio.resx">
+      <DependentUpon>DBT_Intermedio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\DBT_Op.resx">
+      <DependentUpon>DBT_Op.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\Durometro.resx">
+      <DependentUpon>Durometro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\DurometroConsulta.resx">
+      <DependentUpon>DurometroConsulta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\DurometroFactor.resx">
+      <DependentUpon>DurometroFactor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\DurometroIntermedio.resx">
+      <DependentUpon>DurometroIntermedio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\Durometro_Rango.resx">
+      <DependentUpon>Durometro_Rango.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntCertCalidad_CQ.resx">
+      <DependentUpon>MntCertCalidad_CQ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntCertificados_Calidad.resx">
+      <DependentUpon>MntCertificados_Calidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntPTtermico.resx">
+      <DependentUpon>MntPTtermico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntDurome_MaxMin.resx">
+      <DependentUpon>MntDurome_MaxMin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntDurom_Rango.resx">
+      <DependentUpon>MntDurom_Rango.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntFalla.resx">
+      <DependentUpon>MntFalla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntGrado.resx">
+      <DependentUpon>MntGrado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntMatPrima_maxmin.resx">
+      <DependentUpon>MntMatPrima_maxmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\Mntmaxmin.resx">
+      <DependentUpon>Mntmaxmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntObservBarra.resx">
+      <DependentUpon>MntObservBarra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntObservProducto.resx">
+      <DependentUpon>MntObservProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntOpcion.resx">
+      <DependentUpon>MntOpcion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntParametros.resx">
+      <DependentUpon>MntParametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntProcesoLinea.resx">
+      <DependentUpon>MntProcesoLinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntProcesoParametros.resx">
+      <DependentUpon>MntProcesoParametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntProcesoTTermico.resx">
+      <DependentUpon>MntProcesoTTermico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntProductObserv.resx">
+      <DependentUpon>MntProductObserv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntUltrasonico.resx">
+      <DependentUpon>MntUltrasonico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntBarrasObserv.resx">
+      <DependentUpon>MntBarrasObserv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MPParametros.resx">
+      <DependentUpon>MPParametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PBarrasObserv.resx">
+      <DependentUpon>PBarrasObserv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PCertificados_Calidad.resx">
+      <DependentUpon>PCertificados_Calidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PCertificado_Comp.resx">
+      <DependentUpon>PCertificado_Comp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PDurome_MaxMin.resx">
+      <DependentUpon>PDurome_MaxMin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PFalla.resx">
+      <DependentUpon>PFalla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PMatPrima_maxmin.resx">
+      <DependentUpon>PMatPrima_maxmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PObservBarras.resx">
+      <DependentUpon>PObservBarras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PObservProducto.resx">
+      <DependentUpon>PObservProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\POpcion.resx">
+      <DependentUpon>POpcion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntTtermico.resx">
+      <DependentUpon>MntTtermico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PPParametros.resx">
+      <DependentUpon>PPParametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PParametros.resx">
+      <DependentUpon>PParametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PProcesoLinea.resx">
+      <DependentUpon>PProcesoLinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PProcesoParametros.resx">
+      <DependentUpon>PProcesoParametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PProcesoTTermico.resx">
+      <DependentUpon>PProcesoTTermico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PTtermico.resx">
+      <DependentUpon>PTtermico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\P_PTTermico.resx">
+      <DependentUpon>P_PTTermico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\fecha.resx">
+      <DependentUpon>fecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\Hora.resx">
+      <DependentUpon>Hora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\Imagenes\Diametros.resx">
+      <DependentUpon>Diametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\Item.resx">
+      <DependentUpon>Item.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\MntContratista.resx">
+      <DependentUpon>MntContratista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\Mnt_msg_mnt.resx">
+      <DependentUpon>Mnt_msg_mnt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\Mnt_msg_produc.resx">
+      <DependentUpon>Mnt_msg_produc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\Mnt_msg_seguridad.resx">
+      <DependentUpon>Mnt_msg_seguridad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\Mnt_reporteTurno.resx">
+      <DependentUpon>Mnt_reporteTurno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\Mnt_RolSuperviores.resx">
+      <DependentUpon>Mnt_RolSuperviores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\Mnt_trab_terceros.resx">
+      <DependentUpon>Mnt_trab_terceros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\MoverControles.resx">
+      <DependentUpon>MoverControles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\Nivel_Riesgo.resx">
+      <DependentUpon>Nivel_Riesgo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\pActividad.resx">
+      <DependentUpon>pActividad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\PContrastita.resx">
+      <DependentUpon>PContrastita.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\pMsgMnt.resx">
+      <DependentUpon>pMsgMnt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\pMsgProduc.resx">
+      <DependentUpon>pMsgProduc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\pMsgSeguridad.resx">
+      <DependentUpon>pMsgSeguridad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\pRol_Usuario.resx">
+      <DependentUpon>pRol_Usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\ptrab_terceros.resx">
+      <DependentUpon>ptrab_terceros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\p_reporteTurnos.resx">
+      <DependentUpon>p_reporteTurnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Informacion\p_SelecPersonal.resx">
+      <DependentUpon>p_SelecPersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Mantenimiento\FMantenimiento\MntEquipo.resx">
+      <DependentUpon>MntEquipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Mantenimiento\FMantenimiento\MntFallasxlinea.resx">
+      <DependentUpon>MntFallasxlinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\MntDiaxMes.resx">
+      <DependentUpon>MntDiaxMes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\MntHorasTurno.resx">
+      <DependentUpon>MntHorasTurno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\MntMotivo.resx">
+      <DependentUpon>MntMotivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\MntProduccion_objetivo.resx">
+      <DependentUpon>MntProduccion_objetivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\MntTipo.resx">
+      <DependentUpon>MntTipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\MntUbicacion.resx">
+      <DependentUpon>MntUbicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\Mnt_SAP_Sistema.resx">
+      <DependentUpon>Mnt_SAP_Sistema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\pAreaporlinea.resx">
+      <DependentUpon>pAreaporlinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\MntLinea_area.resx">
+      <DependentUpon>MntLinea_area.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\Mnt_SAP.resx">
+      <DependentUpon>Mnt_SAP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Mantenimiento\FMantenimiento\pequipo.resx">
+      <DependentUpon>pequipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Mantenimiento\FMantenimiento\pFallasxlinea.resx">
+      <DependentUpon>pFallasxlinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\pHorasTurno.resx">
+      <DependentUpon>pHorasTurno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\pLinprod.resx">
+      <DependentUpon>pLinprod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\pmotivo.resx">
+      <DependentUpon>pmotivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\pproduccion_objetivo.resx">
+      <DependentUpon>pproduccion_objetivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\pSAP.resx">
+      <DependentUpon>pSAP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\pTipo.resx">
+      <DependentUpon>pTipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\pUbicacion.resx">
+      <DependentUpon>pUbicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Reportes\Calidad\Panel\PanelUltrasonico.resx">
+      <DependentUpon>PanelUltrasonico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PGrado.resx">
+      <DependentUpon>PGrado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntCol_ada.resx">
+      <DependentUpon>MntCol_ada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PCol_ada.resx">
+      <DependentUpon>PCol_ada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntPrima.resx">
+      <DependentUpon>MntPrima.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PMPRIMA.resx">
+      <DependentUpon>PMPRIMA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\Mnt_Di_Ms.resx">
+      <DependentUpon>Mnt_Di_Ms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntColada.resx">
+      <DependentUpon>MntColada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntBolas.resx">
+      <DependentUpon>MntBolas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PBolas.resx">
+      <DependentUpon>PBolas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\dialog_Durometro.resx">
+      <DependentUpon>dialog_Durometro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\dlgAcercaDe.resx">
+      <DependentUpon>dlgAcercaDe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\dlgInformacion.resx">
+      <DependentUpon>dlgInformacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\MntCargo.resx">
+      <DependentUpon>MntCargo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\PCargo.resx">
+      <DependentUpon>PCargo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\MntGrupo.resx">
+      <DependentUpon>MntGrupo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\PGrupo.resx">
+      <DependentUpon>PGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\MntTurno.resx">
+      <DependentUpon>MntTurno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\PTurno.resx">
+      <DependentUpon>PTurno.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntLinea.resx">
+      <DependentUpon>MntLinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PColadas.resx">
+      <DependentUpon>PColadas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PLinea.resx">
+      <DependentUpon>PLinea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\MntBarra.resx">
+      <DependentUpon>MntBarra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PBarra.resx">
+      <DependentUpon>PBarra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\PAreas.resx">
+      <DependentUpon>PAreas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\MntPersonal.resx">
+      <DependentUpon>MntPersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\MntPersona.resx">
+      <DependentUpon>MntPersona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\Persona.resx">
+      <DependentUpon>Persona.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\Usuario.resx">
+      <DependentUpon>Usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Administración\FAdmin\MntAreas.resx">
+      <DependentUpon>MntAreas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PProductoObservado.resx">
+      <DependentUpon>PProductoObservado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Calidad\FCalidad\PUltrasonico.resx">
+      <DependentUpon>PUltrasonico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Reportes\Calidad\Panel\CQuimica.resx">
+      <DependentUpon>CQuimica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Reportes\Produccion\RF1.resx">
+      <DependentUpon>RF1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\Mnt_Parada.resx">
+      <DependentUpon>Mnt_Parada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\Formularios\Produccion\FProduccion\pParadas.resx">
+      <DependentUpon>pParadas.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Molycop_Lima.xlsx" />
+    <None Include="Molycop_Lima_TemporaryKey.pfx" />
+    <None Include="My Project\DataSources\DBT_Fal.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ThisWorkbook.Designer.xml">
+      <DependentUpon>ThisWorkbook.vb</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hoja1.Designer.xml">
+      <DependentUpon>Hoja1.vb</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hoja2.Designer.xml">
+      <DependentUpon>Hoja2.vb</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Principal\Formularios\Administración\ImgAdmin\" />
+    <Folder Include="Principal\Formularios\Calidad\ImgCalidad\" />
+    <Folder Include="Principal\Formularios\Mantenimiento\ImgEnergia\" />
+    <Folder Include="Principal\Formularios\Produccion\ImgProduccion\" />
+    <Folder Include="Principal\Reportes\Administracion\" />
+    <Folder Include="Principal\Reportes\Energia\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hoja31.Designer.xml">
+      <DependentUpon>Hoja31.vb</DependentUpon>
+    </None>
+    <Content Include="Principal\Formularios\Informacion\File.ico" />
+    <Content Include="Principal\Formularios\Informacion\UpgradeLog.XML" />
+    <Content Include="Principal\Imagenes\03-be98 dial upico.ico" />
+    <Content Include="Principal\Imagenes\12.gif" />
+    <Content Include="Principal\Imagenes\1415.ico" />
+    <Content Include="Principal\Imagenes\1417.ico" />
+    <Content Include="Principal\Imagenes\1469.ico" />
+    <Content Include="Principal\Imagenes\1486.ico" />
+    <Content Include="Principal\Imagenes\22-next98 network neighborhood.ico" />
+    <Content Include="Principal\Imagenes\27-be98 shortcut.ico" />
+    <Content Include="Principal\Imagenes\28-next98 desktop.ico" />
+    <Content Include="Principal\Imagenes\34-next98 3.5 floppy.ico" />
+    <Content Include="Principal\Imagenes\3d folders printers.ico" />
+    <Content Include="Principal\Imagenes\ABAJO.BMP" />
+    <Content Include="Principal\Imagenes\Abajo_Grid.bmp" />
+    <Content Include="Principal\Imagenes\Abrir.bmp" />
+    <Content Include="Principal\Imagenes\Accion.ico" />
+    <Content Include="Principal\Imagenes\actualizar.bmp" />
+    <Content Include="Principal\Imagenes\Arriba_Grid.bmp" />
+    <Content Include="Principal\Imagenes\a_save1.bmp" />
+    <Content Include="Principal\Imagenes\b-afegir.bmp" />
+    <Content Include="Principal\Imagenes\b5.bmp" />
+    <Content Include="Principal\Imagenes\Ba1.bmp" />
+    <Content Include="Principal\Imagenes\Ba3.bmp" />
+    <Content Include="Principal\Imagenes\Ba3d.bmp" />
+    <Content Include="Principal\Imagenes\Ba7.bmp" />
+    <Content Include="Principal\Imagenes\BANDEJA0.BMP" />
+    <Content Include="Principal\Imagenes\BANDEJA1.BMP" />
+    <Content Include="Principal\Imagenes\BORRAR.BMP" />
+    <Content Include="Principal\Imagenes\Boton_articulos5.ico" />
+    <Content Include="Principal\Imagenes\boton_guardar2.ico" />
+    <Content Include="Principal\Imagenes\btn_custom-buttons_bg.gif" />
+    <Content Include="Principal\Imagenes\btn_databases_bg.gif" />
+    <Content Include="Principal\Imagenes\btn_file-manager_bg.gif" />
+    <Content Include="Principal\Imagenes\btn_ftp-stats_bg.gif" />
+    <Content Include="Principal\Imagenes\btn_log-manager_bg.gif" />
+    <Content Include="Principal\Imagenes\btn_sshterm_bg.gif" />
+    <Content Include="Principal\Imagenes\Busca01.gif" />
+    <Content Include="Principal\Imagenes\camara.jpg" />
+    <Content Include="Principal\Imagenes\carpeta.bmp" />
+    <Content Include="Principal\Imagenes\CLOSE1.BMP" />
+    <Content Include="Principal\Imagenes\CLOSE2.BMP" />
+    <Content Include="Principal\Imagenes\ConfigSIADSA.bmp" />
+    <Content Include="Principal\Imagenes\controlteklogo.jpg" />
+    <Content Include="Principal\Imagenes\control_panel.ico" />
+    <Content Include="Principal\Imagenes\copy.bmp" />
+    <Content Include="Principal\Imagenes\corpkam - copia.jpg" />
+    <Content Include="Principal\Imagenes\corpkam.jpg" />
+    <Content Include="Principal\Imagenes\CTarea.bmp" />
+    <Content Include="Principal\Imagenes\CUP.BMP" />
+    <Content Include="Principal\Imagenes\cut.bmp" />
+    <Content Include="Principal\Imagenes\Database.png" />
+    <Content Include="Principal\Imagenes\DbServer.gif" />
+    <Content Include="Principal\Imagenes\Done_Check.BMP" />
+    <Content Include="Principal\Imagenes\EDITAR.BMP" />
+    <Content Include="Principal\Imagenes\edit_user.ico" />
+    <Content Include="Principal\Imagenes\ELIMINAR.BMP" />
+    <Content Include="Principal\Imagenes\EliminarC.bmp" />
+    <Content Include="Principal\Imagenes\employee.bmp" />
+    <Content Include="Principal\Imagenes\enter.bmp" />
+    <Content Include="Principal\Imagenes\enviar.bmp" />
+    <Content Include="Principal\Imagenes\exit.bmp" />
+    <Content Include="Principal\Imagenes\FileOpen.bmp" />
+    <Content Include="Principal\Imagenes\file_and_printer_sharing.gif" />
+    <Content Include="Principal\Imagenes\Firmas.bmp" />
+    <Content Include="Principal\Imagenes\flopp.ico" />
+    <Content Include="Principal\Imagenes\folder_app1.ico" />
+    <Content Include="Principal\Imagenes\folder_documents.ico" />
+    <Content Include="Principal\Imagenes\folder_downloads.ico" />
+    <Content Include="Principal\Imagenes\folder_find.ico" />
+    <Content Include="Principal\Imagenes\folder_gray.ico" />
+    <Content Include="Principal\Imagenes\Fondo.jpg" />
+    <Content Include="Principal\Imagenes\Fondo.png" />
+    <Content Include="Principal\Imagenes\forward_com.ico" />
+    <Content Include="Principal\Imagenes\G_Excel.bmp" />
+    <Content Include="Principal\Imagenes\G_HTML.bmp" />
+    <Content Include="Principal\Imagenes\G_IMG.bmp" />
+    <Content Include="Principal\Imagenes\G_WORD.bmp" />
+    <Content Include="Principal\Imagenes\G_XML.bmp" />
+    <Content Include="Principal\Imagenes\hoja.bmp" />
+    <Content Include="Principal\Imagenes\home_toon.ico" />
+    <Content Include="Principal\Imagenes\hoy.bmp" />
+    <Content Include="Principal\Imagenes\icogra.bmp" />
+    <Content Include="Principal\Imagenes\icoli.bmp" />
+    <Content Include="Principal\Imagenes\icon-h.gif" />
+    <Content Include="Principal\Imagenes\icon-ir2.gif" />
+    <Content Include="Principal\Imagenes\icon_ke1.bmp" />
+    <Content Include="Principal\Imagenes\icope.bmp" />
+    <Content Include="Principal\Imagenes\ico_alpha_Denied.png" />
+    <Content Include="Principal\Imagenes\ImgMenu.bmp" />
+    <Content Include="Principal\Imagenes\inbox.ico" />
+    <Content Include="Principal\Imagenes\Inf.gif" />
+    <Content Include="Principal\Imagenes\kde2-bjb icon 15.ico" />
+    <Content Include="Principal\Imagenes\kde2-bjb icon 26.ico" />
+    <Content Include="Principal\Imagenes\kde2-bjb icon 7.ico" />
+    <Content Include="Principal\Imagenes\kmenu.ico" />
+    <Content Include="Principal\Imagenes\linea.jpg" />
+    <Content Include="Principal\Imagenes\LineaShape.bmp" />
+    <Content Include="Principal\Imagenes\lock_file.ico" />
+    <Content Include="Principal\Imagenes\login_picture.jpg" />
+    <Content Include="Principal\Imagenes\LOGISTICA - copia.ico" />
+    <Content Include="Principal\Imagenes\LOGISTICA.ico" />
+    <Content Include="Principal\Imagenes\Logo MCA-OneSteel.JPG" />
+    <Content Include="Principal\Imagenes\LOGO1.bmp" />
+    <Content Include="Principal\Imagenes\LOGO2.bmp" />
+    <Content Include="Principal\Imagenes\LOGO3.JPG" />
+    <Content Include="Principal\Imagenes\lunaxp activex cache.ico" />
+    <Content Include="Principal\Imagenes\lunaxp explorer.ico" />
+    <Content Include="Principal\Imagenes\lunaxp settings - printers.ico" />
+    <Content Include="Principal\Imagenes\MAIL.BMP" />
+    <Content Include="Principal\Imagenes\MAIL1.BMP" />
+    <Content Include="Principal\Imagenes\MAIL2.BMP" />
+    <Content Include="Principal\Imagenes\MAIL3.BMP" />
+    <Content Include="Principal\Imagenes\MAIL4.BMP" />
+    <Content Include="Principal\Imagenes\MAIL5.BMP" />
+    <Content Include="Principal\Imagenes\Mail6.bmp" />
+    <Content Include="Principal\Imagenes\Mail7.bmp" />
+    <Content Include="Principal\Imagenes\MainBG.gif" />
+    <Content Include="Principal\Imagenes\man.png" />
+    <Content Include="Principal\Imagenes\MessClose.bmp" />
+    <Content Include="Principal\Imagenes\MessClose1.bmp" />
+    <Content Include="Principal\Imagenes\MessClose2.bmp" />
+    <Content Include="Principal\Imagenes\MONEY.BMP" />
+    <Content Include="Principal\Imagenes\My Settings Folder.ico" />
+    <Content Include="Principal\Imagenes\nAppbmp.bmp" />
+    <Content Include="Principal\Imagenes\NEGRITA.BMP" />
+    <Content Include="Principal\Imagenes\next-sail.ico" />
+    <Content Include="Principal\Imagenes\nHelp.bmp" />
+    <Content Include="Principal\Imagenes\nnotes.bmp" />
+    <Content Include="Principal\Imagenes\NoFoto.bmp" />
+    <Content Include="Principal\Imagenes\PAPELERA.BMP" />
+    <Content Include="Principal\Imagenes\paste.bmp" />
+    <Content Include="Principal\Imagenes\pdf.bmp" />
+    <Content Include="Principal\Imagenes\Pics 1 16.png" />
+    <Content Include="Principal\Imagenes\pos_virtual_station.jpg" />
+    <Content Include="Principal\Imagenes\preview_16h.bmp" />
+    <Content Include="Principal\Imagenes\prints.bmp" />
+    <Content Include="Principal\Imagenes\print_16h.bmp" />
+    <Content Include="Principal\Imagenes\Procesar.BMP" />
+    <Content Include="Principal\Imagenes\propiedades.bmp" />
+    <Content Include="Principal\Imagenes\Registro.bmp" />
+    <Content Include="Principal\Imagenes\reminder.bmp" />
+    <Content Include="Principal\Imagenes\repo.bmp" />
+    <Content Include="Principal\Imagenes\reportes.bmp" />
+    <Content Include="Principal\Imagenes\Reportes1.bmp" />
+    <Content Include="Principal\Imagenes\ReportPreview.ico" />
+    <Content Include="Principal\Imagenes\restaurar.bmp" />
+    <Content Include="Principal\Imagenes\Seguridad.gif" />
+    <Content Include="Principal\Imagenes\Seguridad.JPG" />
+    <Content Include="Principal\Imagenes\Seguridad2.JPG" />
+    <Content Include="Principal\Imagenes\Siaadsa.bmp" />
+    <Content Include="Principal\Imagenes\siamsoft.gif" />
+    <Content Include="Principal\Imagenes\siarsoft.gif" />
+    <Content Include="Principal\Imagenes\siarsoft2.gif" />
+    <Content Include="Principal\Imagenes\siar_soft_grande.gif" />
+    <Content Include="Principal\Imagenes\siar_soft_grande2.gif" />
+    <Content Include="Principal\Imagenes\siar_tec_alcan.gif" />
+    <Content Include="Principal\Imagenes\siar_tec_alcan2.gif" />
+    <Content Include="Principal\Imagenes\sinfoto.jpg" />
+    <Content Include="Principal\Imagenes\SisLogo.ico" />
+    <Content Include="Principal\Imagenes\Stopd.bmp" />
+    <Content Include="Principal\Imagenes\supervisores.bmp" />
+    <Content Include="Principal\Imagenes\TabAbrir.bmp" />
+    <Content Include="Principal\Imagenes\TabAbrir1.bmp" />
+    <Content Include="Principal\Imagenes\TabAbrir2.bmp" />
+    <Content Include="Principal\Imagenes\TabCerrar.bmp" />
+    <Content Include="Principal\Imagenes\TabCerrar1.bmp" />
+    <Content Include="Principal\Imagenes\TabCerrar2.bmp" />
+    <Content Include="Principal\Imagenes\TabFondo.bmp" />
+    <Content Include="Principal\Imagenes\TABLAC.bmp" />
+    <Content Include="Principal\Imagenes\TabXP11.bmp" />
+    <Content Include="Principal\Imagenes\TabXP13.bmp" />
+    <Content Include="Principal\Imagenes\TabXP24.bmp" />
+    <Content Include="Principal\Imagenes\task_status_ok.png" />
+    <Content Include="Principal\Imagenes\Terminar.bmp" />
+    <Content Include="Principal\Imagenes\todo.bmp" />
+    <Content Include="Principal\Imagenes\topleft.gif" />
+    <Content Include="Principal\Imagenes\turno.jpg" />
+    <Content Include="Principal\Imagenes\unlock_com.ico" />
+    <Content Include="Principal\Imagenes\upload_server.ico" />
+    <Content Include="Principal\Imagenes\user_group.ico" />
+    <Content Include="Principal\Imagenes\usuarios.bmp" />
+    <Content Include="Principal\Imagenes\UsuCone.bmp" />
+    <Content Include="Principal\Imagenes\VfpStyleMenu.jpg" />
+    <Content Include="Principal\Imagenes\windows xp find files.ico" />
+    <Content Include="Principal\Imagenes\windows xp icon 21.ico" />
+    <Content Include="Principal\Imagenes\windows xp shutdown.ico" />
+    <Content Include="Principal\Imagenes\window_new.ico" />
+    <Content Include="Principal\Imagenes\xp-cancel.gif" />
+    <Content Include="Principal\Imagenes\xp-canceld.gif" />
+    <Content Include="Principal\Imagenes\ZIP.BMP" />
+    <Content Include="Principal\Imagenes\_AbotCa.bmp" />
+    <Content Include="Principal\Imagenes\_AbotCa1.bmp" />
+    <Content Include="Principal\Imagenes\_ABotMa.bmp" />
+    <Content Include="Principal\Imagenes\_ABotMa1.bmp" />
+    <Content Include="Principal\Imagenes\_ABotMi.bmp" />
+    <Content Include="Principal\Imagenes\_ABotMi1.bmp" />
+    <Content Include="Principal\Imagenes\_ABotRe.bmp" />
+    <Content Include="Principal\Imagenes\_ABotRe1.bmp" />
+    <Content Include="Principal\Imagenes\_Adjuntar.bmp" />
+    <Content Include="Principal\Imagenes\_BaseDatos.bmp" />
+    <Content Include="Principal\Imagenes\_boprodu.bmp" />
+    <Content Include="Principal\Imagenes\_busFil.bmp" />
+    <Content Include="Principal\Imagenes\_Cam1.bmp" />
+    <Content Include="Principal\Imagenes\_Cam2.bmp" />
+    <Content Include="Principal\Imagenes\_Cam3.bmp" />
+    <Content Include="Principal\Imagenes\_Cam4.bmp" />
+    <Content Include="Principal\Imagenes\_cDatos.bmp" />
+    <Content Include="Principal\Imagenes\_Close.bmp" />
+    <Content Include="Principal\Imagenes\_ComiS.bmp" />
+    <Content Include="Principal\Imagenes\_ComiS1.bmp" />
+    <Content Include="Principal\Imagenes\_doc88.bmp" />
+    <Content Include="Principal\Imagenes\_doc88d.bmp" />
+    <Content Include="Principal\Imagenes\_Excel.bmp" />
+    <Content Include="Principal\Imagenes\_Guardar.bmp" />
+    <Content Include="Principal\Imagenes\_Help.bmp" />
+    <Content Include="Principal\Imagenes\_Html.bmp" />
+    <Content Include="Principal\Imagenes\_Img.bmp" />
+    <Content Include="Principal\Imagenes\_Infrac.bmp" />
+    <Content Include="Principal\Imagenes\_iniciado.bmp" />
+    <Content Include="Principal\Imagenes\_Inter.bmp" />
+    <Content Include="Principal\Imagenes\_listoimp.bmp" />
+    <Content Include="Principal\Imagenes\_listoimpd.bmp" />
+    <Content Include="Principal\Imagenes\_llave.bmp" />
+    <Content Include="Principal\Imagenes\_Menu.bmp" />
+    <Content Include="Principal\Imagenes\_Menu1.bmp" />
+    <Content Include="Principal\Imagenes\_Menu10.bmp" />
+    <Content Include="Principal\Imagenes\_Menu11.bmp" />
+    <Content Include="Principal\Imagenes\_Menu12.bmp" />
+    <Content Include="Principal\Imagenes\_Menu13.bmp" />
+    <Content Include="Principal\Imagenes\_Menu14.bmp" />
+    <Content Include="Principal\Imagenes\_Menu2.bmp" />
+    <Content Include="Principal\Imagenes\_Menu3.bmp" />
+    <Content Include="Principal\Imagenes\_Menu4.bmp" />
+    <Content Include="Principal\Imagenes\_Menu5.bmp" />
+    <Content Include="Principal\Imagenes\_Menu6.bmp" />
+    <Content Include="Principal\Imagenes\_Menu7.bmp" />
+    <Content Include="Principal\Imagenes\_Menu8.bmp" />
+    <Content Include="Principal\Imagenes\_Menu9.bmp" />
+    <Content Include="Principal\Imagenes\_Mysql.bmp" />
+    <Content Include="Principal\Imagenes\_observacion.png" />
+    <Content Include="Principal\Imagenes\_oNuevo.bmp" />
+    <Content Include="Principal\Imagenes\_PaPrevia.bmp" />
+    <Content Include="Principal\Imagenes\_PaSigue.bmp" />
+    <Content Include="Principal\Imagenes\_PaUltima.bmp" />
+    <Content Include="Principal\Imagenes\_Pdf.bmp" />
+    <Content Include="Principal\Imagenes\_Pk.bmp" />
+    <Content Include="Principal\Imagenes\_PostGreSql.png" />
+    <Content Include="Principal\Imagenes\_preafectado.bmp" />
+    <Content Include="Principal\Imagenes\_Previa.bmp" />
+    <Content Include="Principal\Imagenes\_Primera.bmp" />
+    <Content Include="Principal\Imagenes\_printer_sharing.GIF" />
+    <Content Include="Principal\Imagenes\_Produ.bmp" />
+    <Content Include="Principal\Imagenes\_Query.bmp" />
+    <Content Include="Principal\Imagenes\_Recibo.bmp" />
+    <Content Include="Principal\Imagenes\_Relacion.bmp" />
+    <Content Include="Principal\Imagenes\_RelaTabla.bmp" />
+    <Content Include="Principal\Imagenes\_revision.bmp" />
+    <Content Include="Principal\Imagenes\_Rtf.bmp" />
+    <Content Include="Principal\Imagenes\_Submenu.bmp" />
+    <Content Include="Principal\Imagenes\_TableH.bmp" />
+    <Content Include="Principal\Imagenes\_TableP.bmp" />
+    <Content Include="Principal\Imagenes\_transporte.bmp" />
+    <Content Include="Principal\Imagenes\_transporte1.bmp" />
+    <Content Include="Principal\Imagenes\_url.bmp" />
+    <Content Include="Principal\Imagenes\_usu_p4.BMP" />
+    <Content Include="Principal\Imagenes\_usu_p4d.bmp" />
+    <Content Include="Principal\Imagenes\_Word.bmp" />
+    <Content Include="Principal\Imagenes\índice.jpg" />
+    <Content Include="Principal\Imagenes\índice_durometro.jpg" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_1.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_10.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_11.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_12.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_2.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_3.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_4.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_5.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_6.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_61.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_7.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_8.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\a_9.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\planta_lima1.jpg" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_10.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_11.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_12.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_3.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_4.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_5.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_6.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_7.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_8.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_9.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_dos.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_uno.jpg" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\r_uno.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_1.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_10.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_11.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_12.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_2.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_3.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_4.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_5.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_6.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_7.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_8.png" />
+    <Content Include="Principal\Formularios\Informacion\Imagenes\v_9.png" />
+    <None Include="Resources\Desert.jpg" />
+    <None Include="Resources\CORRIENTE.png" />
+    <None Include="Resources\Molycop.jpg" />
+    <None Include="Resources\Fondo.png" />
+    <None Include="Resources\Fondo_Final.png" />
+    <None Include="Resources\Fondo_Final_Moly.jpg" />
+    <None Include="Resources\carita+feliz.bmp" />
+    <Content Include="Resources\Fondo_Final_Moly1.jpg" />
+    <None Include="Resources\Fondo_Final_Moly11.jpg" />
+    <Content Include="Resources\planta_lima1.jpg" />
+    <None Include="Principal\Formularios\Informacion\Imagenes\Desert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
+        <ProjectProperties HostName="Molycop_Lima.xlsx" HostPackage="{3F2B7691-D1D1-402F-9370-2704A737CF60}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="XLS" Language="VB" TemplatesPath="VSTOTemplates" DebugInfoExeName="C:\Program Files\Microsoft Office\root\Office16\excel.exe" DebugInfoCommandLine="/x &quot;[$OUTPUT]Molycop_Lima.xlsx&quot;" />
+        <Host Name="Excel Document" Path=".\Molycop_Lima.xlsx">
+          <HostItem Name="Hoja1" Code="Hoja1.vb" CanonicalName="Hoja1" DisplayName="Hoja1" Blueprint="Hoja1.Designer.xml" GeneratedCode="Hoja1.Designer.vb" />
+          <HostItem Name="Hoja2" Code="Hoja2.vb" CanonicalName="Hoja2" DisplayName="Hoja2" Blueprint="Hoja2.Designer.xml" GeneratedCode="Hoja2.Designer.vb" />
+          <HostItem Name="Hoja3" Code="Hoja31.vb" CanonicalName="Hoja3" DisplayName="Hoja3" Blueprint="Hoja31.Designer.xml" GeneratedCode="Hoja31.Designer.vb" />
+          <HostItem Name="ThisWorkbook" Code="ThisWorkbook.vb" CanonicalName="ThisWorkbook" Blueprint="ThisWorkbook.Designer.xml" GeneratedCode="ThisWorkbook.Designer.vb" />
+        </Host>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!--
+    To modify your build process, add your task inside one of the targets below and uncomment it.
+    Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
